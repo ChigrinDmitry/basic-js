@@ -61,3 +61,4 @@ function showSumByRow(matrix) {
 
     sumResults.push(sum);
   }
+}
