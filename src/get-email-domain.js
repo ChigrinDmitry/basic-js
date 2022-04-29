@@ -11,7 +11,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function getEmailDomain(email) {
-  let domain = email.slice(email.lastIndexOf("@") + 1);
+  let domain = email.substring(email.lastIndexOf("@") + 1);
   return (domain);
 }
 
