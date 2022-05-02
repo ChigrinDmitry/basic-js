@@ -22,7 +22,7 @@ function countCats(arr) {
         {counter++}
     }
   }
-  return (counter);
+  return counter;
 }
 
 
